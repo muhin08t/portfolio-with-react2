@@ -9,12 +9,12 @@ const Header = () => {
           backgroundPosition: 'top left, bottom right',
         }}
         >
-            <nav className='flex justify-between items-center mx-[200px] pt-5'>
+            <nav className='flex justify-between items-center mx-[200px] py-[20px]'>
             <h3 className='font-bold text-5xl'>Ma<span className='text-blue-500'>r</span>y</h3>
             <ul className='flex items-center list-none'>
                 <li className='mr-12 text-black text-xl font-bold'>Portfolio</li>
                 <li className='mr-12 text-black text-xl font-bold'>Blog</li>
-                <li> <a href="#"> <button class="btn btn-warning text-white">Hire Me</button></a></li>
+                <li> <a href="#"> <button class="btn btn-warning">Hire Me</button></a></li>
             </ul>
         </nav>
 
