@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className='py-[130px] px-[40px] bg-[#f7f7f7]'>
-        <div className='bg-[rgba(255,248,243,255)] px-[150px] py-[30px] rounded-lg'>
+        <div className='bg-[rgba(255,248,243,255)] px-[150px] py-[80px] rounded-lg'>
             <h3 className="text-black text-[35px] text-center">About Me</h3>
             <p className="text-[#757575] text-center my-4">
                 I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
