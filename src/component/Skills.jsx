@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-    const baseUrl = "/portfolio-with-react/";
+    const baseUrl = "/portfolio-with-react2/";
     return (
         <div className='px-[40px] bg-[#f7f7f7]'>
             <div>

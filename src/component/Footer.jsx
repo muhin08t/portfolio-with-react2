@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  const baseUrl = "/portfolio-with-react/";
+  const baseUrl = "/portfolio-with-react2/";
   return (
     <div className="py-[130px] px-[230px] bg-[rgba(255,248,243,255)]">
       <footer className="flex justify-center gap-[50px]">

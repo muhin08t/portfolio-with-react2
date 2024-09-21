@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Header = () => {
-    const baseUrl = "/portfolio-with-react/";
-    const imageName1 = "/portfolio-with-react/img/developer.png";
-    const imageName2 = "/portfolio-with-react/img/header_bg.png";
+    const baseUrl = "/portfolio-with-react2/";
+    const imageName1 = "/portfolio-with-react2/img/developer.png";
+    const imageName2 = "/portfolio-with-react2/img/header_bg.png";
     return (
         <div
         className="bg-no-repeat bg-secondaryBg" 
