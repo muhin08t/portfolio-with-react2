@@ -17,7 +17,7 @@ const Header = () => {
             <ul className='flex items-center list-none'>
                 <li className='mr-12 text-black text-xl font-bold'>Portfolio</li>
                 <li className='mr-12 text-black text-xl font-bold'>Blog</li>
-                <li> <a href="#"> <button class="btn btn-warning">Hire Me</button></a></li>
+                <li> <a href="#"> <button className="btn btn-warning">Hire Me</button></a></li>
             </ul>
         </nav>
 

@@ -13,22 +13,22 @@ const About = () => {
                 Delivering work within time and budget which meets clients requirements in our mata.
             </p>
 
-            <div class="flex justify-around">
-                <div class="about-item">
-                    <p class="text-[#757575] text-lg">Name:</p>
-                    <p class="text-[22px]">Mary Hardy</p>
+            <div className="flex justify-around">
+                <div className="about-item">
+                    <p className="text-[#757575] text-lg">Name:</p>
+                    <p className="text-[22px]">Mary Hardy</p>
                 </div>
-                <div class="about-item">
-                    <p class="text-[#757575] text-lg">Email:</p>
-                    <p class="text-[22px]">info@gmail.com</p>
+                <div className="about-item">
+                    <p className="text-[#757575] text-lg">Email:</p>
+                    <p className="text-[22px]">info@gmail.com</p>
                 </div>
-                <div class="about-item">
-                    <p class="text-[#757575] text-lg">Date of birth:</p>
-                    <p class="text-[22px]">11 November 1987</p>
+                <div className="about-item">
+                    <p className="text-[#757575] text-lg">Date of birth:</p>
+                    <p className="text-[22px]">11 November 1987</p>
                 </div>
-                <div class="about-item">
-                    <p class="text-[#757575] text-lg">From:</p>
-                    <p class="text-[22px]">Los Angeles, USA</p>
+                <div className="about-item">
+                    <p className="text-[#757575] text-lg">From:</p>
+                    <p className="text-[22px]">Los Angeles, USA</p>
                 </div>
             </div>
 
