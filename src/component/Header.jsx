@@ -1,11 +1,14 @@
 import React from 'react';
 
 const Header = () => {
+    const baseUrl = "/portfolio-with-react/";
+    const imageName1 = "/portfolio-with-react/img/developer.png";
+    const imageName2 = "/portfolio-with-react/img/header_bg.png";
     return (
         <div
         className="bg-no-repeat bg-secondaryBg" 
         style={{
-          backgroundImage: "url('/img/developer.png'), url('/img/header_bg.png')",
+          backgroundImage: `url(${imageName1}), url(${imageName2})`,
           backgroundPosition: 'top left, bottom right',
         }}
         >
@@ -28,7 +31,7 @@ const Header = () => {
                 <button className="btn btn-warning text-white mt-5 w-32">Download CV</button>
                 <button className="btn btn-warning ml-5 text-white w-32"> Contact</button>
             </div>
-            <img className="w-[580px]" src="/img/hardy.png" alt="Profile Picture of Hard"></img>
+            <img className="w-[580px]" src={baseUrl+"/img/hardy.png"} alt="Profile Picture of Hard"></img>
         </div>
 
         </div>

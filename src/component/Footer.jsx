@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+  const baseUrl = "/portfolio-with-react/";
   return (
     <div className="py-[130px] px-[230px] bg-[rgba(255,248,243,255)]">
       <footer className="flex justify-center gap-[50px]">
@@ -11,9 +12,9 @@ const Footer = () => {
                 Monday through
                 Friday.</p>
             <div className="text-center mt-4">
-                <a className="inline-block" href=""><img src="/img/icons/facebook.png" alt=""></img></a>
-                <a className="inline-block" href=""><img src="/img/icons/twitter.png" alt=""></img></a>
-                <a className="inline-block" href=""><img src="/img/icons/insta.png" alt=""></img></a>
+                <a className="inline-block" href=""><img src={baseUrl+"/img/icons/facebook.png"} alt=""></img></a>
+                <a className="inline-block" href=""><img src={baseUrl+"/img/icons/twitter.png"} alt=""></img></a>
+                <a className="inline-block" href=""><img src={baseUrl+"/img/icons/insta.png"} alt=""></img></a>
             </div>
         </div>
 
